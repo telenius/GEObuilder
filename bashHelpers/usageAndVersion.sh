@@ -94,12 +94,12 @@ echo "        (i.e. ALL pe or ALL se, ALL gzipped or ALL not gzipped, all 2 lane
 echo "         If all your samples are not the same here - see (d) below : to run several GEObuilder runs to a single folder !"
 echo
 echo
-echo "__GEO_processedDataPaths.txt ______________________________________"
+echo "__GEO_processedFilePaths.txt ______________________________________"
 echo
-echo "  The GEO_processedDataPaths.txt point to bigwig/bigbed/region-bam etc analysed files, "
+echo "  The GEO_processedFilePaths.txt point to bigwig/bigbed/region-bam etc analysed files, "
 echo "  If these human-readable files (not bw,bb,bam tar,gz,zip), tell it by using flag --unpackedProcessedFiles"
 echo
-echo "  Provide GEO_processedDataPaths.txt in this format :"
+echo "  Provide GEO_processedFilePaths.txt in this format :"
 echo
 echo "  Samplename_genome_filedescription    /this/is/where/my/file/is.bw"
 echo
